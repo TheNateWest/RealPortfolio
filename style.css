@@ -4,7 +4,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav {
     width: 100%;
@@ -20,6 +20,7 @@ ul {
 }
 li {
     float: left;
+    /* opacity: 20%; */
 }
 a {
     padding: 20px;
@@ -44,19 +45,19 @@ a {
 }
 #section3 {
     height: 700px;
-    background: red;
+    background: pink;
     display: inline-block;
     width: 100%;
 }
 #section4 {
     height: 700px;
-    background: green;
+    background: black;
     display: inline-block;
     width: 100%;
 }
 #section5 {
     height: 700px;
-    background: blue;
+    background: pink;
     display: inline-block;
     width: 100%;
 }
@@ -64,6 +65,8 @@ h1 {
     margin: 100px;
     text-align: center;
     padding: 0;
+    color: white;
+    font-size: 50px;
 }
 h2 {
     color: white;
@@ -71,6 +74,21 @@ h2 {
     text-align: center;
     font-size: 20px;
     font-weight: lighter;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+h4 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 80px;
 }
 /* #img-gal {
     height: 360px;
@@ -107,5 +125,8 @@ h2 {
 .gallery img {
     width: 100%;
     height: auto;
+}
+nav a:hover {
+    color: red;
 }
 
