@@ -114,18 +114,26 @@ p {
     margin: auto;
     /* background: black; */
     overflow: auto;
+    align-items: center;
 }
 .gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 390px;
+    
 
 }
 .gallery img {
     width: 100%;
     height: auto;
 }
+.form-container { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
 nav a:hover {
     color: red;
 }
